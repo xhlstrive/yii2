@@ -289,7 +289,6 @@ Each mapping array contains a set of mappings. Each mapping could be:
 
 The result of conversion above will be:
 
-
 ```php
 [
     'id' => 123,
@@ -298,6 +297,4 @@ The result of conversion above will be:
     'length' => 301,
 ]
 ```
-
-It is possible to provide default way of converting object to array for a specific class by implementing
-[[yii\base\Arrayable|Arrayable]] interface in that class.
+It is possible to provide default way of converting object to array for a specific class by implementing[[yii\base\Arrayable|Arrayable]] interface in that class.
